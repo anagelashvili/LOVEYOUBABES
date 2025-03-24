@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday to My BFF!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Confetti container -->
+    <div class="confetti-container" id="confetti-container"></div>
+    
+    <!-- Floating paw prints -->
+    <div class="paw-print" style="top: 10%; left: 5%;"></div>
+    <div class="paw-print" style="top: 20%; left: 85%; animation-delay: 2s;"></div>
+    <div class="paw-print" style="top: 40%; left: 15%; animation-delay: 4s;"></div>
+    <div class="paw-print" style="top: 60%; left: 75%; animation-delay: 6s;"></div>
+    <div class="paw-print" style="top: 80%; left: 35%; animation-delay: 8s;"></div>
+    <div class="paw-print" style="top: 30%; left: 45%; animation-delay: 10s;"></div>
+    <div class="paw-print" style="top: 70%; left: 25%; animation-delay: 12s;"></div>
+    <div class="paw-print" style="top: 15%; left: 65%; animation-delay: 14s;"></div>
+    
+    <!-- Sticker panel -->
+    <div class="sticker-panel">
+        <h3>Drag Stickers!</h3>
+        <div class="sticker" draggable="true" data-sticker="cake">🎂</div>
+        <div class="sticker" draggable="true" data-sticker="gift">🎁</div>
+        <div class="sticker" draggable="true" data-sticker="balloon">🎈</div>
+        <div class="sticker" draggable="true" data-sticker="party">🎉</div>
+        <div class="sticker" draggable="true" data-sticker="heart">❤️</div>
+        <div class="sticker" draggable="true" data-sticker="star">⭐</div>
+        <div class="sticker" draggable="true" data-sticker="sparkles">✨</div>
+        <div class="sticker" draggable="true" data-sticker="cat">😺</div>
+        <div class="sticker" draggable="true" data-sticker="dog">🐶</div>
+        <div class="sticker" draggable="true" data-sticker="unicorn">🦄</div>
+        <div class="sticker-counter">0 stickers placed</div>
+    </div>
+    
+    <!-- Main content -->
+    <div class="container">
+        <header>
+            <img class="kitten-decoration kitten-1" src="images/484554597_2015377888949520_1852520107344503535_n.png" alt="Decorative kitten">
+            <h1 class="rainbow-text">Happy Birthday, BOMBSHELL!</h1>
+            <p class="subtitle"></p>
+            <button class="btn party-button">🎉 PARTY TIME! 🎉</button>
+        </header>
+        
+        <section class="interactive-section">
+            <img class="kitten-decoration kitten-2" src="images/484323972_624566343786004_6744543509136917678_n.png" alt="Decorative kitten">
+            <h2>Why You're The Best Friend Ever</h2>
+            <div class="messages">
+                <div class="message pop-message">
+                    <p>You always know how to make me laugh, even on my worst days.</p>
+                </div>
+                <div class="message pop-message">
+                    <p>every day u make me truly believe that u r my soulmate!</p>
+                </div>
+                <div class="message pop-message">
+                    <p>Your kindness and support mean the world to me nigga.</p>
+                </div>
+                <div class="message pop-message">
+                    <p>you are like my other family.even negative emotions feel less painful when i am with you.</p>
+                </div>
+            </div>
+            
+            <div class="add-message-container">
+                <h3>Add Your Own Memory!</h3>
+                <textarea id="custom-message" placeholder="Write your own message or memory here..."></textarea>
+                <button class="btn add-message-btn">Add Memory</button>
+            </div>
+        </section>
+        
+        <section class="interactive-section">
+            <img class="kitten-decoration kitten-3" src="images/484554597_2015377888949520_1852520107344503535_n.png" alt="Decorative kitten">
+            <h2>SLAY YOUR LAST YEAR AS A TEEN!!!!!!!!!!!</h2>
+            <div class="gallery">
+                <!-- Replace the placeholder images with actual photos of you and your friend -->
+                <div class="gallery-item">
+                    <img src="images/485275227_998882112173333_3536524778594435721_n.jpg" alt="Friendship memory">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/484689523_1426787694982416_8398413650311245122_n.jpg" alt="Friendship memory">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/484780875_1350326042909534_4061266015734438783_n.jpg" alt="Friendship memory">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/485181082_9124022611060065_7862361737927321881_n.jpg" alt="Friendship memory">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/486001849_1307737033857128_5776084372231625739_n.jpg" alt="Friendship memory">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/486073457_2850900841761450_2533663064807823333_n.jpg" alt="Friendship memory">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/486465842_1196541681829583_1576446187046405887_n.jpg" alt="Friendship memory">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/484307402_2356744821374019_2939276469337029440_n.jpg" alt="Friendship memory">
+                </div>
+            </div>
+        </section>
+        
+        <section class="interactive-section">
+            <img class="kitten-decoration kitten-4 pet-me" src="images/484323972_624566343786004_6744543509136917678_n.png" alt="Decorative kitten">
+            <div class="pet-counter">0 pets given</div>
+            <h2>Birthday Wishes</h2>
+            <div class="birthday-cake">
+                <div class="cake-base"></div>
+                <div class="cake-middle"></div>
+                <div class="cake-top"></div>
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <div class="cake-message">Make a wish and click the cake!</div>
+            
+            <div class="wishes-section">
+                <p>DIVA I wish you:</p>
+                <ul class="glowing-list">
+                    <li>All the happiness in the world</li>
+                    <li>Success in everything you do</li>
+                    <li>less dumb hoes </li>
+                    <li>more decent hoes</li>
+                    <li>More awesome adventures together!</li>
+                </ul>
+                <p>🎉 GET IT MOTHER 🎉</p>
+            </div>
+            
+            
+        </section>
+        
+       
+        
+        <footer>
+            <div class="hidden-present" id="present1">🎁</div>
+            <div class="hidden-present" id="present2">🎁</div>
+            <div class="hidden-present" id="present3">🎁</div>
+            <p>MADE WITH ❤️ FOR MY POOKIE</p>
+            
+        </footer>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>
